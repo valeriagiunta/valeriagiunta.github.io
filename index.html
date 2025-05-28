@@ -13,11 +13,18 @@
     color: #1a1a1a;
   }
   header {
-    background-color: #8B1A1A; /* Deep red */
-    color: #ffffff;
-    padding: 1rem;
-    text-align: center;
-  }
+  background-color: #8B1A1A; /* deep red base */
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
   nav {
     background-color: #D46A6A; /* Muted rose */
     padding: 0.5rem;
